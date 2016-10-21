@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\skahar\AppData\Local\Temp\testng-eclipse-718372340\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 11 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, name, name, dhoni)">testLogin(, SETTEXT, name, name, dhoni)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, pinno, name, 400022.0)">testLogin(, SETTEXT, pinno, name, 400022.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, telephoneno, name, 9967812365)">testLogin(, SETTEXT, telephoneno, name, 9967812365)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)">testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, city, name, Mumbai)">testLogin(, SETTEXT, city, name, Mumbai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, CLICK, submit, name, )">testLogin(, CLICK, submit, name, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, dob, name, 05-10-1995)">testLogin(, SETTEXT, dob, name, 05-10-1995)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, emailid, name, dhoni@gm15664ail.com)">testLogin(, SETTEXT, emailid, name, dhoni@gm15664ail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(New Customer, CLICK, path, xpath, )">testLogin(New Customer, CLICK, path, xpath, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, password, name, Tendulkar@100)">testLogin(, SETTEXT, password, name, Tendulkar@100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, state, name, Maharashtra)">testLogin(, SETTEXT, state, name, Maharashtra)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(Login In Application, , , , )">testLogin(Login In Application, , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, CLICK, submit, name, )">testLogin(, CLICK, submit, name, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, CLICK, loginButton, name, )">testLogin(, CLICK, loginButton, name, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, password, name, Tendulkar@100)">testLogin(, SETTEXT, password, name, Tendulkar@100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, telephoneno, name, 9967812365)">testLogin(, SETTEXT, telephoneno, name, 9967812365)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, password, name, Tendulkar@100)">testLogin(, SETTEXT, password, name, Tendulkar@100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, dob, name, 05-10-1991)">testLogin(, SETTEXT, dob, name, 05-10-1991)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, dob, name, 05-10-1992)">testLogin(, SETTEXT, dob, name, 05-10-1992)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, GOTOURL, , , url)">testLogin(, GOTOURL, , , url)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, CLICK, submit, name, )">testLogin(, CLICK, submit, name, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, city, name, Mumbai)">testLogin(, SETTEXT, city, name, Mumbai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, password, name, zybymEn)">testLogin(, SETTEXT, password, name, zybymEn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, pinno, name, 400022.0)">testLogin(, SETTEXT, pinno, name, 400022.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, emailid, name, sachin@g44m15664ail.com)">testLogin(, SETTEXT, emailid, name, sachin@g44m15664ail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, emailid, name, rahul@gm315664ail.com)">testLogin(, SETTEXT, emailid, name, rahul@gm315664ail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, city, name, Mumbai)">testLogin(, SETTEXT, city, name, Mumbai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, username, name, mngr51234)">testLogin(, SETTEXT, username, name, mngr51234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, name, name, Sachin)">testLogin(, SETTEXT, name, name, Sachin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)">testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(New Customer, CLICK, path, xpath, )">testLogin(New Customer, CLICK, path, xpath, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, pinno, name, 400022.0)">testLogin(, SETTEXT, pinno, name, 400022.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, telephoneno, name, 9967812365)">testLogin(, SETTEXT, telephoneno, name, 9967812365)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, state, name, Maharashtra)">testLogin(, SETTEXT, state, name, Maharashtra)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)">testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(New Customer, CLICK, path, xpath, )">testLogin(New Customer, CLICK, path, xpath, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, name, name, rahul)">testLogin(, SETTEXT, name, name, rahul)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testCases.HybridExecuteTest" hash-for-method="testLogin(, SETTEXT, state, name, Maharashtra)">testLogin(, SETTEXT, state, name, Maharashtra)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.HybridExecuteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, name, name, dhoni)">
+                  </a> <!-- testLogin(, SETTEXT, name, name, dhoni) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, name, name, dhoni)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;name&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;name&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, pinno, name, 400022.0)">
+                  </a> <!-- testLogin(, SETTEXT, pinno, name, 400022.0) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, pinno, name, 400022.0)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;pinno&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;pinno&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, telephoneno, name, 9967812365)">
+                  </a> <!-- testLogin(, SETTEXT, telephoneno, name, 9967812365) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, telephoneno, name, 9967812365)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;telephoneno&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;telephoneno&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)">
+                  </a> <!-- testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;addr&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;addr&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, city, name, Mumbai)">
+                  </a> <!-- testLogin(, SETTEXT, city, name, Mumbai) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, city, name, Mumbai)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;city&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;city&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, CLICK, submit, name, )">
+                  </a> <!-- testLogin(, CLICK, submit, name, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, CLICK, submit, name, )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;sub&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;sub&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:19)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, dob, name, 05-10-1995)">
+                  </a> <!-- testLogin(, SETTEXT, dob, name, 05-10-1995) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, dob, name, 05-10-1995)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;dob&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;dob&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, emailid, name, dhoni@gm15664ail.com)">
+                  </a> <!-- testLogin(, SETTEXT, emailid, name, dhoni@gm15664ail.com) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, emailid, name, dhoni@gm15664ail.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;emailid&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;emailid&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(New Customer, CLICK, path, xpath, )">
+                  </a> <!-- testLogin(New Customer, CLICK, path, xpath, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(New Customer, CLICK, path, xpath, )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: html/body/div[2]/div/ul/li[2]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=xpath, value=html/body/div[2]/div/ul/li[2]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:506)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:19)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, password, name, Tendulkar@100)">
+                  </a> <!-- testLogin(, SETTEXT, password, name, Tendulkar@100) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, password, name, Tendulkar@100)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;password&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;password&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, state, name, Maharashtra)">
+                  </a> <!-- testLogin(, SETTEXT, state, name, Maharashtra) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, state, name, Maharashtra)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;state&apos;] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.0-beta2&apos;, revision: &apos;2aa21c1&apos;, time: &apos;2016-08-02 15:03:28 -0700&apos;
+System info: host: &apos;DIN16004877&apos;, ip: &apos;10.246.56.81&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, appBuildId=20160823121617, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, browserVersion=48.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=Firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=Windows_NT, device=desktop}]
+Session ID: 88e56a21-0500-45f7-bba4-cd5a99371463
+*** Element info: {Using=css selector, value=*[name=&apos;state&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:683)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at operation.UIOperation.perform(UIOperation.java:24)
+	at testCases.HybridExecuteTest.testLogin(HybridExecuteTest.java:44)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.HybridExecuteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(Login In Application, , , , )">
+                  </a> <!-- testLogin(Login In Application, , , , ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(Login In Application, , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, CLICK, submit, name, )">
+                  </a> <!-- testLogin(, CLICK, submit, name, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, CLICK, submit, name, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, CLICK, loginButton, name, )">
+                  </a> <!-- testLogin(, CLICK, loginButton, name, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, CLICK, loginButton, name, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, password, name, Tendulkar@100)">
+                  </a> <!-- testLogin(, SETTEXT, password, name, Tendulkar@100) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, password, name, Tendulkar@100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, telephoneno, name, 9967812365)">
+                  </a> <!-- testLogin(, SETTEXT, telephoneno, name, 9967812365) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, telephoneno, name, 9967812365)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, password, name, Tendulkar@100)">
+                  </a> <!-- testLogin(, SETTEXT, password, name, Tendulkar@100) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, password, name, Tendulkar@100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, dob, name, 05-10-1991)">
+                  </a> <!-- testLogin(, SETTEXT, dob, name, 05-10-1991) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, dob, name, 05-10-1991)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, dob, name, 05-10-1992)">
+                  </a> <!-- testLogin(, SETTEXT, dob, name, 05-10-1992) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, dob, name, 05-10-1992)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, GOTOURL, , , url)">
+                  </a> <!-- testLogin(, GOTOURL, , , url) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, GOTOURL, , , url)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, CLICK, submit, name, )">
+                  </a> <!-- testLogin(, CLICK, submit, name, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, CLICK, submit, name, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, city, name, Mumbai)">
+                  </a> <!-- testLogin(, SETTEXT, city, name, Mumbai) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, city, name, Mumbai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, password, name, zybymEn)">
+                  </a> <!-- testLogin(, SETTEXT, password, name, zybymEn) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, password, name, zybymEn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, pinno, name, 400022.0)">
+                  </a> <!-- testLogin(, SETTEXT, pinno, name, 400022.0) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, pinno, name, 400022.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, emailid, name, sachin@g44m15664ail.com)">
+                  </a> <!-- testLogin(, SETTEXT, emailid, name, sachin@g44m15664ail.com) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, emailid, name, sachin@g44m15664ail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, emailid, name, rahul@gm315664ail.com)">
+                  </a> <!-- testLogin(, SETTEXT, emailid, name, rahul@gm315664ail.com) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, emailid, name, rahul@gm315664ail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, city, name, Mumbai)">
+                  </a> <!-- testLogin(, SETTEXT, city, name, Mumbai) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, city, name, Mumbai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, username, name, mngr51234)">
+                  </a> <!-- testLogin(, SETTEXT, username, name, mngr51234) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, username, name, mngr51234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, name, name, Sachin)">
+                  </a> <!-- testLogin(, SETTEXT, name, name, Sachin) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, name, name, Sachin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)">
+                  </a> <!-- testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(New Customer, CLICK, path, xpath, )">
+                  </a> <!-- testLogin(New Customer, CLICK, path, xpath, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(New Customer, CLICK, path, xpath, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, pinno, name, 400022.0)">
+                  </a> <!-- testLogin(, SETTEXT, pinno, name, 400022.0) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, pinno, name, 400022.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, telephoneno, name, 9967812365)">
+                  </a> <!-- testLogin(, SETTEXT, telephoneno, name, 9967812365) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, telephoneno, name, 9967812365)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, state, name, Maharashtra)">
+                  </a> <!-- testLogin(, SETTEXT, state, name, Maharashtra) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, state, name, Maharashtra)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)">
+                  </a> <!-- testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(New Customer, CLICK, path, xpath, )">
+                  </a> <!-- testLogin(New Customer, CLICK, path, xpath, ) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(New Customer, CLICK, path, xpath, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, name, name, rahul)">
+                  </a> <!-- testLogin(, SETTEXT, name, name, rahul) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, name, name, rahul)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, SETTEXT, state, name, Maharashtra)">
+                  </a> <!-- testLogin(, SETTEXT, state, name, Maharashtra) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(, SETTEXT, state, name, Maharashtra)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\skahar\AppData\Local\Temp\testng-eclipse-718372340\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.HybridExecuteTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLogin')
+data.setCell(0, 2, 'testCases.HybridExecuteTest')
+data.setCell(0, 3, 6145);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin')
+data.setCell(1, 2, 'testCases.HybridExecuteTest')
+data.setCell(1, 3, 3061);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'testCases.HybridExecuteTest')
+data.setCell(2, 3, 3057);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogin')
+data.setCell(3, 2, 'testCases.HybridExecuteTest')
+data.setCell(3, 3, 3056);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'testCases.HybridExecuteTest')
+data.setCell(4, 3, 3040);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'testCases.HybridExecuteTest')
+data.setCell(5, 3, 3034);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLogin')
+data.setCell(6, 2, 'testCases.HybridExecuteTest')
+data.setCell(6, 3, 1095);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLogin')
+data.setCell(7, 2, 'testCases.HybridExecuteTest')
+data.setCell(7, 3, 1080);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLogin')
+data.setCell(8, 2, 'testCases.HybridExecuteTest')
+data.setCell(8, 3, 1072);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testLogin')
+data.setCell(9, 2, 'testCases.HybridExecuteTest')
+data.setCell(9, 3, 1070);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLogin')
+data.setCell(10, 2, 'testCases.HybridExecuteTest')
+data.setCell(10, 3, 1066);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testLogin')
+data.setCell(11, 2, 'testCases.HybridExecuteTest')
+data.setCell(11, 3, 1059);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testLogin')
+data.setCell(12, 2, 'testCases.HybridExecuteTest')
+data.setCell(12, 3, 1048);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testLogin')
+data.setCell(13, 2, 'testCases.HybridExecuteTest')
+data.setCell(13, 3, 1048);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLogin')
+data.setCell(14, 2, 'testCases.HybridExecuteTest')
+data.setCell(14, 3, 1047);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testLogin')
+data.setCell(15, 2, 'testCases.HybridExecuteTest')
+data.setCell(15, 3, 1046);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLogin')
+data.setCell(16, 2, 'testCases.HybridExecuteTest')
+data.setCell(16, 3, 1045);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testLogin')
+data.setCell(17, 2, 'testCases.HybridExecuteTest')
+data.setCell(17, 3, 1044);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testLogin')
+data.setCell(18, 2, 'testCases.HybridExecuteTest')
+data.setCell(18, 3, 1044);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testLogin')
+data.setCell(19, 2, 'testCases.HybridExecuteTest')
+data.setCell(19, 3, 1044);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testLogin')
+data.setCell(20, 2, 'testCases.HybridExecuteTest')
+data.setCell(20, 3, 1043);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testLogin')
+data.setCell(21, 2, 'testCases.HybridExecuteTest')
+data.setCell(21, 3, 1042);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testLogin')
+data.setCell(22, 2, 'testCases.HybridExecuteTest')
+data.setCell(22, 3, 1042);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLogin')
+data.setCell(23, 2, 'testCases.HybridExecuteTest')
+data.setCell(23, 3, 1040);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testLogin')
+data.setCell(24, 2, 'testCases.HybridExecuteTest')
+data.setCell(24, 3, 1039);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testLogin')
+data.setCell(25, 2, 'testCases.HybridExecuteTest')
+data.setCell(25, 3, 1037);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testLogin')
+data.setCell(26, 2, 'testCases.HybridExecuteTest')
+data.setCell(26, 3, 25);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testLogin')
+data.setCell(27, 2, 'testCases.HybridExecuteTest')
+data.setCell(27, 3, 24);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testLogin')
+data.setCell(28, 2, 'testCases.HybridExecuteTest')
+data.setCell(28, 3, 17);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testLogin')
+data.setCell(29, 2, 'testCases.HybridExecuteTest')
+data.setCell(29, 3, 17);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testLogin')
+data.setCell(30, 2, 'testCases.HybridExecuteTest')
+data.setCell(30, 3, 13);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testLogin')
+data.setCell(31, 2, 'testCases.HybridExecuteTest')
+data.setCell(31, 3, 12);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testLogin')
+data.setCell(32, 2, 'testCases.HybridExecuteTest')
+data.setCell(32, 3, 12);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testLogin')
+data.setCell(33, 2, 'testCases.HybridExecuteTest')
+data.setCell(33, 3, 11);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testLogin')
+data.setCell(34, 2, 'testCases.HybridExecuteTest')
+data.setCell(34, 3, 11);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testLogin')
+data.setCell(35, 2, 'testCases.HybridExecuteTest')
+data.setCell(35, 3, 11);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testLogin')
+data.setCell(36, 2, 'testCases.HybridExecuteTest')
+data.setCell(36, 3, 10);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testLogin')
+data.setCell(37, 2, 'testCases.HybridExecuteTest')
+data.setCell(37, 3, 8);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.HybridExecuteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(Login In Application, , , , )</span>
+                <span class="method-start">10240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, GOTOURL, , , url)</span>
+                <span class="method-start">10249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, username, name, mngr51234)</span>
+                <span class="method-start">16395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, password, name, zybymEn)</span>
+                <span class="method-start">17491 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, CLICK, loginButton, name, )</span>
+                <span class="method-start">18537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(New Customer, CLICK, path, xpath, )</span>
+                <span class="method-start">21594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, name, name, Sachin)</span>
+                <span class="method-start">24629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, dob, name, 05-10-1991)</span>
+                <span class="method-start">25674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</span>
+                <span class="method-start">26723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, city, name, Mumbai)</span>
+                <span class="method-start">27804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, state, name, Maharashtra)</span>
+                <span class="method-start">28842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, pinno, name, 400022.0)</span>
+                <span class="method-start">29887 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, telephoneno, name, 9967812365)</span>
+                <span class="method-start">30933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, emailid, name, sachin@g44m15664ail.com)</span>
+                <span class="method-start">31979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, password, name, Tendulkar@100)</span>
+                <span class="method-start">33052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, CLICK, submit, name, )</span>
+                <span class="method-start">34124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(New Customer, CLICK, path, xpath, )</span>
+                <span class="method-start">37184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, name, name, rahul)</span>
+                <span class="method-start">40246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, dob, name, 05-10-1992)</span>
+                <span class="method-start">41295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</span>
+                <span class="method-start">42342 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, city, name, Mumbai)</span>
+                <span class="method-start">43409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, state, name, Maharashtra)</span>
+                <span class="method-start">44449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, pinno, name, 400022.0)</span>
+                <span class="method-start">45493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, telephoneno, name, 9967812365)</span>
+                <span class="method-start">46541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, emailid, name, rahul@gm315664ail.com)</span>
+                <span class="method-start">47584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, SETTEXT, password, name, Tendulkar@100)</span>
+                <span class="method-start">48644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, CLICK, submit, name, )</span>
+                <span class="method-start">49685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(New Customer, CLICK, path, xpath, )</span>
+                <span class="method-start">52726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, name, name, dhoni)</span>
+                <span class="method-start">52757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, dob, name, 05-10-1995)</span>
+                <span class="method-start">52783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, addr, name, 7 Bunglow  JUHU Mumbai 400022)</span>
+                <span class="method-start">52796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, city, name, Mumbai)</span>
+                <span class="method-start">52810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, state, name, Maharashtra)</span>
+                <span class="method-start">52825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, pinno, name, 400022.0)</span>
+                <span class="method-start">52852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, telephoneno, name, 9967812365)</span>
+                <span class="method-start">52866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, emailid, name, dhoni@gm15664ail.com)</span>
+                <span class="method-start">52879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, SETTEXT, password, name, Tendulkar@100)</span>
+                <span class="method-start">52891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(, CLICK, submit, name, )</span>
+                <span class="method-start">52904 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
